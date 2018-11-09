@@ -18,14 +18,13 @@ import javafx.scene.control.Label;
 public class FXMLDocumentController implements Initializable {
     
     
-    @FXML
-    private Label title;
-    
-    
+   
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+       
+        
+        
     }    
     
 }
