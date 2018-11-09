@@ -1,8 +1,11 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Cindy Nguyen and Christian Crosser
+ * COP3330C Fall 2018
+ * Project: Airline Resevation
+ * Description: Create a GUI application to manage flight information 
  */
+
+
 package airline.reservation.system;
 
 import java.net.URL;
@@ -11,10 +14,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 
-/**
- *
- * @author chris
- */
+
 public class FXMLDocumentController implements Initializable {
     
     
