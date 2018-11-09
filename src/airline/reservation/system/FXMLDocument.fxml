@@ -21,6 +21,7 @@
                         <TextField fx:id="DepCityOne" layoutX="76.0" layoutY="262.0" promptText="Enter Departure City" />
                         <TextField fx:id="DestCityOne" layoutX="76.0" layoutY="318.0" promptText="Enter Destination City" />
                         <TextField fx:id="AvailSeatsOne" layoutX="76.0" layoutY="371.0" promptText="Enter # of Available Seats" />
+                        <Button layoutX="479.0" layoutY="160.0" mnemonicParsing="false" onAction="#submitButtonOne" text="Submit" />
                      </children>
                   </AnchorPane>
             </content>
