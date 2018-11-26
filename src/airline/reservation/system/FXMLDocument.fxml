@@ -34,7 +34,7 @@
                         <TextField fx:id="IdNumTwo" layoutX="59.0" layoutY="105.0" promptText="Enter ID Number" />
                         <TextField fx:id="nameTwo" layoutX="59.0" layoutY="156.0" promptText="Enter Name" />
                         <Button layoutX="123.0" layoutY="223.0" mnemonicParsing="false" onAction="#provideInfoTwo" text="Show Seat Map" />
-                        <TextArea fx:id="seatMapArea" layoutX="429.0" layoutY="30.0" prefHeight="317.0" prefWidth="322.0" />
+                        <TextArea fx:id="seatMapAreaTwo" layoutX="429.0" layoutY="30.0" prefHeight="317.0" prefWidth="322.0" />
                         <TextField fx:id="seatNumTwo" layoutX="814.0" layoutY="30.0" promptText="Enter Seat Number" />
                         <Button layoutX="841.0" layoutY="86.0" mnemonicParsing="false" onAction="#processFlightInfoTwo" text="Process Flight Info" />
                      </children>

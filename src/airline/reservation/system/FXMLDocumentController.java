@@ -21,22 +21,42 @@ import javafx.scene.control.TextField;
 public class FXMLDocumentController implements Initializable {
     
     @FXML
-    private TextField flightNumTwo;
+    private TextField DepCityOne;
+    
+     @FXML
+    private TextField flightNumOne;
 
     @FXML
-    private TextField DepCityOne;
+    private TextField AvailSeatsOne;
+    
+     @FXML
+    private TextField DeptTimeOne;
+    
+       @FXML
+    private TextField DestCityOne;
 
+    @FXML
+    private TextField ArrTimeOne;
+    
+     @FXML
+    private TextField flightDateOne;
+    
+    @FXML
+    void submitButtonOne(ActionEvent event) {
+
+    }
+     
+    
+    
+     
+     @FXML
+    private TextField flightNumTwo;
+   
     @FXML
     private TextField IdNumTwo;
 
     @FXML
     private TextField nameTwo;
-
-    @FXML
-    private TextField flightNumOne;
-
-    @FXML
-    private TextField AvailSeatsOne;
 
     @FXML
     private TextArea AllPassResGivenSix;
@@ -48,16 +68,7 @@ public class FXMLDocumentController implements Initializable {
     private TextField enterFlightThree;
 
     @FXML
-    private TextField DeptTimeOne;
-
-    @FXML
     private TextArea allFlightInfoFour;
-
-    @FXML
-    private TextField DestCityOne;
-
-    @FXML
-    private TextField ArrTimeOne;
 
     @FXML
     private TextArea allPassResAllFlightFive;
@@ -66,15 +77,10 @@ public class FXMLDocumentController implements Initializable {
     private TextField enterFlightNumSix;
 
     @FXML
-    private TextField flightDateOne;
+    private TextArea seatMapAreaTwo;
 
-    @FXML
-    private TextArea seatMapArea;
 
-    @FXML
-    void submitButtonOne(ActionEvent event) {
-
-    }
+   
 
     @FXML
     void provideInfoTwo(ActionEvent event) {
@@ -100,6 +106,9 @@ public class FXMLDocumentController implements Initializable {
     void exitSeven(ActionEvent event) {
     
     }
+    
+    
+    
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
